@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/prices/morjim/</loc>
+    <lastmod>2018-03-23T08:54:24+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/travel/india18/flight/</loc>
     <lastmod>2018-03-23T08:47:22+03:00</lastmod>
   </url>
@@ -24,7 +29,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-03-23T08:47:22+03:00</lastmod>
+    <lastmod>2018-03-23T08:54:24+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -35,7 +40,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-03-23T08:47:22+03:00</lastmod>
+    <lastmod>2018-03-23T08:54:24+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -124,7 +129,13 @@
   
   <url>
     <loc>/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F/</loc>
-    <lastmod>2018-03-23T08:47:22+03:00</lastmod>
+    <lastmod>2018-03-23T08:54:24+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%D1%86%D0%B5%D0%BD%D1%8B/</loc>
+    <lastmod>2018-03-23T08:54:24+03:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Цены on Blog</title>
+    <link>/tags/%D1%86%D0%B5%D0%BD%D1%8B/</link>
+    <description>Recent content in Цены on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Fri, 23 Mar 2018 08:54:24 +0300</lastBuildDate>
+    
+	<atom:link href="/tags/%D1%86%D0%B5%D0%BD%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Цены в Морджим</title>
+      <link>/post/prices/morjim/</link>
+      <pubDate>Fri, 23 Mar 2018 08:54:24 +0300</pubDate>
+      
+      <guid>/post/prices/morjim/</guid>
+      <description>Цены на туры:
+ Брали тур в Морджим на 10 марта/7 ночей в январе 2018 года, цена была около 47 тыщ. Потом только росла. В районе 18 марта цены на туры 22 марта были дешёвые, от 44 тысяч.  </description>
+    </item>
+    
+  </channel>
+</rss>
