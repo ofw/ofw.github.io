@@ -32,7 +32,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-03-23T09:01:34&#43;03:00"/>
+<meta property="og:updated_time" content="2018-04-19T08:13:57&#43;03:00"/>
 
 
 
@@ -98,6 +98,28 @@
   </main>
     
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
+        April 19, 2018
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="/post/it/bios-nvme/" class="link black dim">
+        Bios Nvme
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Взял себе материнку asus p7h55-m без поддержки nvme технологии.
+При этом имел Samsung Evo 960 ssd, который до этого работал на другой материнке.
+Получилось подружить его с этой таким способом:
+ Сделать arch linux live usb Загрузиться в неё. Найти ненужную флешку. Отформатировать её для загрузки в MBR режиме: http://valleycat.org/linux/arch-usb.html?i=1#partition Из live режима увидеть, что девайсы /dev/nvme* видны Замаунтинтить / из nvme в какую-нибудь директорию Подготовить окружение для chroot:  sudo mount -B /proc /nvme_root/proc sudo mount -B /dev /nvme_root/dev sudo mount -B /sys /nvme_root/sys   chroot /nvme_root Замаунтить раздели из отформатированной флешки с шага (4) в /boot.
+    </div>
+  </div>
+
+        </div>
       
         <div class="relative w-100 w-30-l mb4 bg-white">
             <div class="mb3 pa4 mid-gray overflow-hidden">

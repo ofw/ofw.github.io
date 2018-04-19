@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru-ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Blog  | Bios Nvme</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.37.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    <link href='/dist/main.css' rel='stylesheet' type="text/css" />
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Bios Nvme" />
+<meta property="og:description" content="Взял себе материнку asus p7h55-m без поддержки nvme технологии.
+При этом имел Samsung Evo 960 ssd, который до этого работал на другой материнке.
+Получилось подружить его с этой таким способом:
+ Сделать arch linux live usb Загрузиться в неё. Найти ненужную флешку. Отформатировать её для загрузки в MBR режиме: http://valleycat.org/linux/arch-usb.html?i=1#partition Из live режима увидеть, что девайсы /dev/nvme* видны Замаунтинтить / из nvme в какую-нибудь директорию Подготовить окружение для chroot:  sudo mount -B /proc /nvme_root/proc sudo mount -B /dev /nvme_root/dev sudo mount -B /sys /nvme_root/sys   chroot /nvme_root Замаунтить раздели из отформатированной флешки с шага (4) в /boot." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/it/bios-nvme/" />
+
+
+
+<meta property="article:published_time" content="2018-04-19T08:13:57&#43;03:00"/>
+
+<meta property="article:modified_time" content="2018-04-19T08:13:57&#43;03:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Bios Nvme">
+<meta itemprop="description" content="Взял себе материнку asus p7h55-m без поддержки nvme технологии.
+При этом имел Samsung Evo 960 ssd, который до этого работал на другой материнке.
+Получилось подружить его с этой таким способом:
+ Сделать arch linux live usb Загрузиться в неё. Найти ненужную флешку. Отформатировать её для загрузки в MBR режиме: http://valleycat.org/linux/arch-usb.html?i=1#partition Из live режима увидеть, что девайсы /dev/nvme* видны Замаунтинтить / из nvme в какую-нибудь директорию Подготовить окружение для chroot:  sudo mount -B /proc /nvme_root/proc sudo mount -B /dev /nvme_root/dev sudo mount -B /sys /nvme_root/sys   chroot /nvme_root Замаунтить раздели из отформатированной флешки с шага (4) в /boot.">
+
+
+<meta itemprop="datePublished" content="2018-04-19T08:13:57&#43;03:00" />
+<meta itemprop="dateModified" content="2018-04-19T08:13:57&#43;03:00" />
+<meta itemprop="wordCount" content="168">
+
+
+
+<meta itemprop="keywords" content="nvme,linux," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Bios Nvme"/>
+<meta name="twitter:description" content="Взял себе материнку asus p7h55-m без поддержки nvme технологии.
+При этом имел Samsung Evo 960 ssd, который до этого работал на другой материнке.
+Получилось подружить его с этой таким способом:
+ Сделать arch linux live usb Загрузиться в неё. Найти ненужную флешку. Отформатировать её для загрузки в MBR режиме: http://valleycat.org/linux/arch-usb.html?i=1#partition Из live режима увидеть, что девайсы /dev/nvme* видны Замаунтинтить / из nvme в какую-нибудь директорию Подготовить окружение для chroot:  sudo mount -B /proc /nvme_root/proc sudo mount -B /dev /nvme_root/dev sudo mount -B /sys /nvme_root/sys   chroot /nvme_root Замаунтить раздели из отформатированной флешки с шага (4) в /boot."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Blog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <p class="f6 b helvetica tracked">
+        
+        POST
+      </p>
+      <h1 class="f1 athelas">
+        Bios Nvme
+      </h1>
+        
+        
+      <time class="f6 mv4 dib tracked" datetime="2018-04-19T08:13:57&#43;03:00">
+        April 19, 2018
+      </time>
+      <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray">
+        <p>Взял себе материнку <code>asus p7h55-m</code> без поддержки <code>nvme</code> технологии.</p>
+
+<p>При этом имел Samsung Evo 960 ssd, который до этого работал на другой материнке.</p>
+
+<p>Получилось подружить его с этой таким способом:</p>
+
+<ol>
+<li>Сделать arch linux live usb</li>
+<li>Загрузиться в неё.</li>
+<li>Найти ненужную флешку.</li>
+<li>Отформатировать её для загрузки в MBR режиме: <a href="http://valleycat.org/linux/arch-usb.html?i=1#partition">http://valleycat.org/linux/arch-usb.html?i=1#partition</a></li>
+<li>Из live режима увидеть, что девайсы /dev/nvme* видны</li>
+<li>Замаунтинтить / из nvme в какую-нибудь директорию</li>
+<li>Подготовить окружение для chroot:</li>
+</ol>
+
+<pre><code>sudo mount -B /proc /nvme_root/proc
+sudo mount -B /dev /nvme_root/dev
+sudo mount -B /sys /nvme_root/sys
+</code></pre>
+
+<ol>
+<li>chroot /nvme_root</li>
+<li>Замаунтить раздели из отформатированной флешки с шага (4) в /boot.</li>
+<li>Поправить /etc/fstab, чтобы /boot имел корректный uuid.</li>
+<li>Добавить <code>nvme</code> в <code>MODULES</code> из <code>/etc/mkinitcpio.conf</code>.</li>
+<li>Пересобрать <code>initramfs</code>: <code>mkinitcpio -p linux</code></li>
+<li>Сделать <code>grub-install --target=i386-pc --boot-directory /boot /dev/sdX</code></li>
+<li>И последнее: <code>grub-mkconfig -o /boot/grub/grub.cfg</code></li>
+<li>Готово.</li>
+</ol>
+
+<p>У меня был затык в шаге 11, я не знал почему <code>grub2</code> не может загрузить ядро с рутом на nvme.</p>
+
+<p>Но потом нашёл вот этот пост:</p>
+
+<p><a href="https://bbs.archlinux.org/viewtopic.php?id=212861">https://bbs.archlinux.org/viewtopic.php?id=212861</a></p>
+
+<p>Там как раз было сказано про добавление <code>nvme</code> в <code>MODULES</code>, после этого всё взлетело.</p>
+
+<p>Ссылки:</p>
+
+<p><a href="https://askubuntu.com/questions/3402/how-to-move-boot-and-root-partitions-to-another-drive">https://askubuntu.com/questions/3402/how-to-move-boot-and-root-partitions-to-another-drive</a></p>
+
+      </section>
+      
+
+  
+  
+  
+  
+  
+
+
+    </article>
+    <div class="ph3 mt2 mt6-ns">
+      
+
+
+
+
+
+
+
+  <div class="bg-light-gray pa3">
+    <ul>
+      <li class="list b mb3">
+        8 More Posts
+      </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/post/it/bios-nvme/" class="link ph2 pv2 db black o-50">
+            Bios Nvme
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/post/travel/india18/goa/" class="link ph2 pv2 db black">
+            Goa
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/post/travel/india18/hampi/" class="link ph2 pv2 db black">
+            Хампи
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/post/travel/india18/flight-full/" class="link ph2 pv2 db black">
+            Перелёт Гоа - Москва - Гоа
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/post/prices/morjim/" class="link ph2 pv2 db black">
+            Цены в Морджим
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/post/travel/india18/flight/" class="link ph2 pv2 db black">
+            Батхёрт в перелёте
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/post/about/" class="link ph2 pv2 db black">
+            О блоге
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/post/india-charter-airlines-royal-flight-ak-rossiya/" class="link ph2 pv2 db black">
+            Опыт перелёта на чартерах в Индию (Гоа). АК Россия vs Royal Flight
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/post/tiara-festa-beach-cottages-morjim/" class="link ph2 pv2 db black">
+            Отзыв об отеле Tiara Festa Beach Cottages Morjim
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+    </div>
+  </div>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >
+    &copy; 2018 Blog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    <script src="/dist/app.bundle.js" async></script>
+
+  </body>
+</html>
