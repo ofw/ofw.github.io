@@ -148,7 +148,7 @@ sudo mount -B /sys /nvme_root/sys
 <li>Пересобрать <code>initramfs</code>: <code>mkinitcpio -p linux</code></li>
 <li>Сделать <code>grub-install --target=i386-pc --boot-directory /boot /dev/sdX</code></li>
 <li>И последнее: <code>grub-mkconfig -o /boot/grub/grub.cfg</code></li>
-<li>Готово.</li>
+<li>Готово!</li>
 </ol>
 
 <p>У меня был затык в шаге 11, я не знал почему <code>grub2</code> не может загрузить ядро с рутом на nvme.</p>
