@@ -119,5 +119,14 @@ sudo mount -B /proc /nvme_root/proc sudo mount -B /dev /nvme_root/dev sudo mount
 Расположен он близко к морю, из нашего номера даже было видно его кусочек. [фото] На территории 5-6 двухэтажных коттеджей. Сделаны из дерева, доски достаточно тонкие, слышно всё что происходит у соседей (даже из соседнего коттеджа). Внутри всё выглядит как в бане, потому что все стены и крыша из светлых деревянных досок.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/post/tmp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tmp/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
