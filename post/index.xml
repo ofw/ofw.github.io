@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Thu, 19 Apr 2018 08:13:57 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 20 May 2018 15:48:21 +0300</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Booking</title>
+      <link>/post/hotels/</link>
+      <pubDate>Sun, 20 May 2018 15:48:21 +0300</pubDate>
+      
+      <guid>/post/hotels/</guid>
+      <description>Ссылки для поиска отелей:
+[ostrovok.ru](&amp;ldquo;https://ostrovok.ru?from=egor&amp;quot;) booking.com</description>
+    </item>
     
     <item>
       <title>Опыт загрузки Nvme раздела на материнке без поддержки nvme</title>
